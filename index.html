@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +45,79 @@
       </div>
     </div>
   </nav>
+  <section id="carousel-images">
 
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/bora-bora.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bora-Bora</h5>
+                  <p>Bora-Bora est une petite île du Pacifique sud, située au nord-ouest de Tahiti</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/hawaii.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hawaii</h5>
+                  <p>Hawaii, un État américain, est un archipel volcanique isolé dans le Pacifique central.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/tahiti.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tahiti</h5>
+                  <p>Tahiti est la plus grande île de la Polynésie française, archipel du sud de l'océan Pacifique.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/inde.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Inde</h5>
+                  <p>Immense pays du sud de l'Asie, l'Inde offre un paysage varié, des pics de l'Himalaya au littoral de
+                    l'océan Indien.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/canada.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Canada</h5>
+                  <p>Le Canada est un pays nord-américain situé entre les États-Unis au sud et le cercle polaire au
+                    nord.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
   <section>
@@ -58,6 +131,74 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="formules">
+
+    <div class="container">
+
+      <div class="row">
+
+        <!--formule 1-->
+        <div class="col-md-4 p-4">
+          <div class="card mh-100" style="width: 25rem;">
+            <img src="./images/canada.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center p-2">Standard</h5>
+              
+              <div class="card-text d-flex flex-column text-center p-2">
+                <p>975€ TTC</p>
+                <p>avion + hotel</p>
+                <p>repas non inclus</p>
+                <p>ideal pour les petits budgets</p>
+                 </div>
+              <a href="#" class="btn btn-primary d-flex justify-content-center">Réservé</a>
+            </div>
+          </div>
+
+        </div>
+        <!--formule 2-->
+        <div class="col-md-4 p-4">
+          <div class="card mh-100" style="width: 25rem ;">
+            <img src="./images/canada.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center p-2">Premium</h5>
+              
+              <div class="card-text d-flex flex-column text-center p-2">
+                <p>1495€ TTC</p>
+                <p>avion + hotel + transport</p>
+                <p>repas et boissons inclus</p>
+                <p>circuit de découvertes de l'île </p>
+                 </div>
+              <a href="#" class="btn btn-primary d-flex justify-content-center">Réservé</a>
+            </div>
+          </div>
+
+        </div>
+        <!--formule 3-->
+        <div class="col-md-4 p-4">
+          <div class="card" style="width: 25rem ;">
+            <img src="./images/canada.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center p-2">Execellence</h5>
+              
+              <div class="card-text d-flex flex-column text-center p-2">
+                <p>2495€ TTC</p>
+                <p>avion + hotel + transport + extras</p>
+                <p>repas et boissons inclus(à volonté)</p>
+                <p>circuit tour en bateau, decouverte</p>
+                 </div>
+              <a href="#" class="btn btn-primary d-flex justify-content-center">Réservé</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
   </section>
 
 
@@ -85,9 +226,77 @@
     </div>
   </section>
 
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+<section id="formulaire">
+    <div class="container">
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Prenom</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+     
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Destination souhaitées</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Choisisez votre destinations</option>
+          <option value="1">Bora-Bora</option>
+          <option value="2">Hawai</option>
+          <option value="3">Tahiti</option>
+          <option value="4">Inde</option>
+          <option value="5">Canada</option>
+        </select>
+   
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Date de depart</label>
+        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Date de retour</label>
+        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Formules souhaitées</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Choisissez votre formules</option>
+          <option value="1">Standart</option>
+          <option value="2">Premium</option>
+          <option value="3">Excellence</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombres d'adulte</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre d'enfant</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+      </div>
+    
+      <button type="submit" class="btn btn-primary">Valider</button>
+    </form>
+  </div>
+  </section>
+
+
+
+
+  <!--JS BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 </body>
 
